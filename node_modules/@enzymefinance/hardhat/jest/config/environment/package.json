@@ -1,0 +1,4 @@
+{
+  "main": "dist/enzymefinance-hardhat-jest-config-environment.cjs.js",
+  "module": "dist/enzymefinance-hardhat-jest-config-environment.esm.js"
+}

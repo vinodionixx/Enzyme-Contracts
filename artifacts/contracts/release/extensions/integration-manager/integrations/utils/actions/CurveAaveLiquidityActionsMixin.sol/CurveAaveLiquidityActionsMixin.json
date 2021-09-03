@@ -1,0 +1,45 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "CurveAaveLiquidityActionsMixin",
+  "sourceName": "contracts/release/extensions/integration-manager/integrations/utils/actions/CurveAaveLiquidityActionsMixin.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_pool",
+          "type": "address"
+        },
+        {
+          "internalType": "address[3]",
+          "name": "_aaveTokensToApprove",
+          "type": "address[3]"
+        },
+        {
+          "internalType": "address[3]",
+          "name": "_underlyingTokensToApprove",
+          "type": "address[3]"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getCurveAaveLiquidityPool",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "pool_",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

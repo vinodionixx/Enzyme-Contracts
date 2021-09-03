@@ -1,0 +1,4 @@
+{
+  "main": "dist/enzymefinance-hardhat-jest-types.cjs.js",
+  "module": "dist/enzymefinance-hardhat-jest-types.esm.js"
+}
